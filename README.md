@@ -20,7 +20,7 @@ $ cp .env.example .env
 $ php artisan key:generate
 $ php artisan jwt:secret
 
-// Create a MySQL database and update credentials in .env file
+# Create a MySQL database and update credentials in .env file
 
 $ php artisan migrate
 ```
@@ -30,5 +30,5 @@ $ php artisan migrate
 
 $ php artisan serve
 
-// Visit http://127.0.0.1:8000/ in your browser
+# Visit http://127.0.0.1:8000/ in your browser
 ```
